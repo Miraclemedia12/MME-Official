@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle Media Entertainment | Digital Media & Creative Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00f2ff;
+            --bg: #05070a;
+            --card-bg: #0f172a;
+            --text-white: #ffffff;
+            --text-dim: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { background-color: var(--bg); color: var(--text-white); line-height: 1.6; }
+        
+        /* Navigation */
+        nav { padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(5, 7, 10, 0.9); position: sticky; top: 0; z-index: 1000; }
+        .logo { font-weight: 800; font-size: 1.4rem; color: var(--primary); text-decoration: none; }
+        
+        /* Hero Section */
+        .hero { height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; background: radial-gradient(circle at center, #1e293b 0%, var(--bg) 100%); }
+        .hero h1 { font-size: 3rem; margin-bottom: 15px; background: linear-gradient(to right, #fff, var(--primary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { color: var(--text-dim); max-width: 700px; margin-bottom: 30px; font-size: 1.1rem; }
+        .btn { background: var(--primary); color: var(--bg); padding: 15px 35px; border-radius: 8px; text-decoration: none; font-weight: 700; transition: 0.3s; }
+        
+        /* Services */
+        .container { max-width: 1100px; margin: auto; padding: 60px 20px; }
+        .section-title { text-align: center; margin-bottom: 40px; font-size: 2rem; color: var(--primary); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .service-card { background: var(--card-bg); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); }
+        .service-card h3 { margin-bottom: 12px; color: #fff; }
+        .service-card p { color: var(--text-dim); font-size: 0.95rem; }
+
+        /* Contact Section */
+        .contact-box { background: #1e293b; padding: 40px; border-radius: 20px; text-align: center; margin-top: 40px; }
+        .contact-box a { color: var(--primary); text-decoration: none; display: block; margin: 10px 0; font-weight: 600; }
+
+        /* Footer */
+        footer { border-top: 1px solid #1e293b; padding: 40px 20px; text-align: center; }
+        .footer-links { margin-bottom: 20px; }
+        .footer-links a { color: var(--text-dim); text-decoration: none; margin: 0 15px; font-size: 0.9rem; }
+        .footer-links a:hover { color: var(--primary); }
+        .footer-tag { font-size: 0.8rem; color: #475569; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">MIRACLE MEDIA</a>
+    </nav>
+
+    <header class="hero">
+        <h1>Miracle Media Entertainment</h1>
+        <p>Strategic Content Creation. Branding Excellence. Social Media Management for Modern Businesses.</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </header>
+
+    <div class="container">
+        <section id="about" style="text-align: center; margin-bottom: 80px;">
+            <h2 class="section-title">About Us</h2>
+            <p style="max-width: 800px; margin: auto; color: var(--text-dim);">Miracle Media Entertainment is a registered media services business focused on delivering high-quality digital content and creative solutions. We help brands build their online presence through strategic storytelling and professional media services.</p>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">Professional Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Content Creation</h3>
+                    <p>Professional video editing, motion graphics, and social media content for TikTok, YouTube, and Instagram.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Branding & Identity</h3>
+                    <p>Building strong identities through logo design, brand voice development, and visual consistency.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Social Media Management</h3>
+                    <p>Comprehensive account management, strategic growth, and high-engagement ad campaigns.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Digital Consulting</h3>
+                    <p>One-on-one strategy sessions to help you optimize your digital footprint and online funnel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="payments" style="margin-top: 80px; padding: 40px; border: 1px dashed var(--primary); border-radius: 15px;">
+            <h2 style="color: var(--primary); margin-bottom: 15px;">Payment Information</h2>
+            <p>Payments are accepted for completed digital media services. Clients are billed based on service type and project scope. All transactions are securely processed via <strong>Kora</strong> and represent payment for legitimate creative and media services rendered.</p>
+        </section>
+
+        <section id="contact" class="contact-box">
+            <h2>Ready to collaborate?</h2>
+            <p style="margin-bottom: 20px; color: var(--text-dim);">For inquiries and service requests, contact us below.</p>
+            <a href="mailto:miraclemediaassistant@gmail.com">📧 miraclemediaassistant@gmail.com</a>
+            <a href="https://wa.me/2347019948699">💬 Message us on WhatsApp</a>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="legal.html">Privacy Policy</a>
+            <a href="legal.html">Terms of Service</a>
+            <a href="legal.html">Disclaimer</a>
+        </div>
+        <p class="footer-tag">&copy; 2026 Miracle Media Entertainment. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
