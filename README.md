@@ -3,7 +3,7 @@
 This repository contains the source code for the **Miracle Media Entertainment** official business website. The site is designed to showcase our digital media services, creative branding solutions, and content strategy for modern brands.
 
 ## 🚀 Live Demo
-https://miraclemedia.netlify.app
+https://miraclemedia-ent.netlify.app
 
 ## 🛠️ Tech Stack
 - **HTML5:** Semantic structure for SEO and accessibility.
